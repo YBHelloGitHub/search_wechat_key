@@ -9,7 +9,7 @@ import win32api
 from _ctypes import byref, sizeof, Structure
 import util
 app_path = os.path.dirname(os.path.abspath(sys.argv[0]))
-log_file = os.path.basename(sys.argv[0]).split('.')[0] + '.log'
+log_file = os.path.join(app_path, os.path.basename(sys.argv[0]).split('.')[0] + '.log')
 cfg_file=os.path.basename(sys.argv[0]).split('.')[0] + '.ini'
 
 mylog=util.get_logger(log_file)

@@ -1,0 +1,11 @@
+altgraph
+packaging
+pefile
+psutil
+pycryptodome
+pyinstaller
+pyinstaller-hooks-contrib
+Pymem
+pywin32
+pywin32-ctypes
+setuptools
